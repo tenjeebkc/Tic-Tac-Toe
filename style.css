@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(240, 240, 223);
+}
 .cell{
     width: 75px;
     height: 75px;
@@ -5,10 +8,12 @@
     box-shadow: 0 0 0 2px;
     font-size: 50px;
     cursor: pointer;
+    background-color: white;
 }
 #gameContainer{
     font-family: cursive;
     text-align: center;
+    margin-top: 80px;
 }
 #cellContainer{
     display: grid;
